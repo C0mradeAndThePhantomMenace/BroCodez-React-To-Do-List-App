@@ -2,10 +2,22 @@
  * App.jsx
  */
 
+import './App.css'
+import {
+  Header,
+  Footer,
+  MainBody,
+
+} from './componants'
+
 const App = (params) => {
   return (
     <>
-    <h1>TodoList App</h1>
+      <Header />
+      <hr className='hr-main'/>
+      <MainBody />
+      <hr className='hr-main'/>
+      <Footer />
     </>
   )
 }
