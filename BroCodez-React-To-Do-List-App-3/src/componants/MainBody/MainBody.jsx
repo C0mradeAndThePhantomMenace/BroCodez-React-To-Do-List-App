@@ -1,13 +1,22 @@
 import './MainBody.css'
 
-const MainBody = (params) => {
+import React, { useState } from 'react'
+
+
+import {
+    TodoAdd,
+    TodosList
+} from '../todos'
+
+const MainBody = ({ todosListArr }) => {
+    const [todos, setTodos] = useState([...todosListArr])
     return (
         <main>
             <h2>Main Body</h2>
             <hr />
-            <h3>Add Item</h3>
+            <TodoAdd />
             <hr />
-            <h3>Items List</h3>
+            <TodosList todos={todos} />
         </main>
     )
 }

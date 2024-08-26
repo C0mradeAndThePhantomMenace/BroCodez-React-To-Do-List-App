@@ -39,11 +39,11 @@ https://github.com/rodrigovallades/vscode-es7-javascript-react-snippets/
 ### npm create
 
 ```
-npm create vite@latest BroCodez-React-To-Do-List-App-3 -- --template react -y
+npm create vite@latest BroCodez-React-To-Do-List-App-4 -- --template react -y
 
-cd BroCodez-React-To-Do-List-App-3 && npm i && npm run dev
+cd BroCodez-React-To-Do-List-App-4 && npm i && npm run dev
 
-cd BroCodez-React-To-Do-List-App-3
+cd BroCodez-React-To-Do-List-App-4
 
 npm i
 npm run dev
